@@ -74,9 +74,6 @@ body {
   padding: 1rem 2rem;
   text-decoration: none;
 }
-.btn:hover {
-  background: #333;
-}
 
 .section {
   padding: 20px 0;
@@ -89,34 +86,11 @@ body {
 
 footer {
   text-align: center;
-  padding: 2rem 1rem;
   margin: auto;
-  color: #333;
 }
-
 .copyright {
-  padding: 0.5rem 2rem;
-  border: 1px #ccc solid;
-  display: inline-block;
-  margin: 2rem 0 0;
+  border: 1px #333 solid;
   border-radius: 50px;
-  text-decoration: none;
-  color: #333;
-  transition: background 500ms ease;
-}
-
-.copyright:hover {
-  background: #ccc;
-}
-
-footer h3 {
-  font-size: 3rem;
-  margin-bottom: 0;
-}
-
-@media (max-width: 960px) {
-  .container {
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
+  padding: 2rem 2rem;
+  margin: 5rem 5rem 5rem 5rem;
 }
